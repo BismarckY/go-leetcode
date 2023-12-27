@@ -1,6 +1,6 @@
 package maxArea
 
-func maxArea(height []int) int {
+func funcMaxArea(height []int) int {
 	max, start, end := 0, 0, len(height)-1
 	for start < end {
 		width := end - start
