@@ -18,5 +18,6 @@ func maxArea(height []int) int {
 			max = temp
 		}
 	}
+	// return max value
 	return max
 }
